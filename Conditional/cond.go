@@ -4,11 +4,19 @@ import "fmt"
 
 func main() {
 
-	var angka int = 12
+	angka:= 12
 
 	if (angka % 2) == 0 {
-		fmt.Printf("%d adalah genap", angka)
+		fmt.Printf("%d adalah genap\n", angka)
 	} else {
-		fmt.Printf("%d adalah ganjil", angka)
+		fmt.Printf("%d adalah ganjil\n", angka)
+	}
+
+	angka= 25
+
+	if (angka % 2) == 0 {
+		fmt.Printf("%d adalah genap\n", angka)
+	} else {
+		fmt.Printf("%d adalah ganjil\n", angka)
 	}
 }
